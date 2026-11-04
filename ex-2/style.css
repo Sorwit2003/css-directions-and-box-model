@@ -1,1 +1,25 @@
+
 /* Start coding here */
+
+body {
+    margin: 0;
+  }
+  
+  .container {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: khaki;
+    border: 16px solid black;
+    outline: 24px solid crimson;
+    outline-offset: -40px;
+    padding: 70px 30px 30px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 72px;
+    font-weight: normal;
+    color: black;
+  }
+  

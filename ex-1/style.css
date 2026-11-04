@@ -1,1 +1,83 @@
-/* Start coding here */
+
+/* Reset */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Sarabun", sans-serif;
+    color: #1d4054;
+    background-color: white;
+  }
+  
+  /* Header */
+  .header {
+    width: 100%;
+    height: 89px;
+    padding: 28px 39px;
+    background-color: #94aec1;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Main */
+  .blog-container {
+    padding: 38px 39px;
+  }
+  
+  /* Blog Card */
+  .blog-card {
+    width: 406px;
+    padding: 16px;
+    margin-bottom: 38px;
+    background-color: #e2e7eb;
+    border: 2px solid #1d4054;
+  }
+  
+  .blog-card h2 {
+    margin: 0 0 10px;
+    font-size: 18px;
+    font-weight: normal;
+  }
+  
+  /* Image Placeholder */
+  .image-placeholder {
+    position: relative;
+    width: 306px;
+    height: 90px;
+    overflow: hidden;
+    background-color: #eeeeee;
+    border: 1px solid #aaaaaa;
+  }
+  
+  .image-placeholder::before,
+  .image-placeholder::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 320px;
+    height: 1px;
+    background-color: #aaaaaa;
+  }
+  
+  .image-placeholder::before {
+    transform: translate(-50%, -50%) rotate(16deg);
+  }
+  
+  .image-placeholder::after {
+    transform: translate(-50%, -50%) rotate(-16deg);
+  }
+  
+  /* Description */
+  .blog-card p {
+    margin: 8px 0 0;
+    font-size: 13px;
+    line-height: 1.3;
+  }
+  
